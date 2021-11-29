@@ -11,7 +11,10 @@ let sends = require('./base/sends.json')
 const request = require("request")
 const express = require("express");
 const app = express();
-app.listen(3030 || process.env.PORT)
+app.get('/', function (req, res) {
+  res.send('H'
+})
+app.listen(3000||process.env.PORT)
 const vk = new VK({
    token: config.group_token
 });
