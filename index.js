@@ -9,6 +9,9 @@ let users = require('./base/users.json'); // Подключаем базу да�
 let promos = require('./base/promos.json')
 let sends = require('./base/sends.json')
 const request = require("request")
+const express = require("express");
+const app = express();
+app.listen(3030 || process.env.PORT)
 const vk = new VK({
    token: config.group_token
 });
@@ -58,7 +61,9 @@ vk.updates.on("message_new", async (message) => {
    if (message.messagePayload && message.text != "Начать") message.text = message.messagePayload.button;
 
    message.args = message.text.split(" ");
-
+   app.get('/', function (req, res) {
+     res.send(message) 
+    });
    if (!users.find(x => x.id === message.senderId)) {
        const [user_info] = await vk.api.users.get({
            user_id: message.senderId
