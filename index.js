@@ -14,7 +14,7 @@ const app = express();
 app.get('/', function (req, res) {
   res.send('H')
 })
-app.listen(3000 || process.env.PORT)
+
 const vk = new VK({
    token: config.group_token
 });
@@ -272,3 +272,7 @@ const menu = JSON.stringify({
    }],
  ]
 })
+
+const PORT = process.env.PORT || 5001;
+
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
