@@ -29,7 +29,7 @@ fs.readdir("./commands/", function(err, files) {
 
 setInterval(() => {
    utils.save(users, 'users')
-   var url = http://investvkbot5.herokuapp.com
+   var url = "http://investvkbot5.herokuapp.com"
    request(url, (error, response, body) => {
 console.log(response)
 })
