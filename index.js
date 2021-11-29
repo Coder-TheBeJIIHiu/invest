@@ -12,9 +12,9 @@ const request = require("request")
 const express = require("express");
 const app = express();
 app.get('/', function (req, res) {
-  res.send('H'
+  res.send('H')
 })
-app.listen(3000||process.env.PORT)
+app.listen(3000 || process.env.PORT)
 const vk = new VK({
    token: config.group_token
 });
