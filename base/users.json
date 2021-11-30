@@ -11,7 +11,7 @@
     "status": "Премиум",
     "stage": "",
     "bonus": 0,
-    "invest": 99999,
+    "invest": 1,
     "refs": [],
     "ban": false,
     "limit": 500000000000000000
@@ -28,7 +28,7 @@
     "status": "Премиум",
     "stage": "",
     "bonus": 0,
-    "invest": 99999,
+    "invest": 1,
     "refs": [],
     "ban": false,
     "limit": 500000000000000000
