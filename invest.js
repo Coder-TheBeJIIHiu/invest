@@ -21,7 +21,8 @@ const commands = []; // Массив с командами
 // Добавление команд в массив
 fs.readdir("./commands/", function(err, files) {
    files.forEach(f => {
-       commands.push(require(`./commands/${f}`));
+       console.log("✅ Запущен: " + f)
+         commands.push(require(`./commands/${f}`));
    });
 });
 const express = require("express");
@@ -32,9 +33,6 @@ app.get('/', function (req, res) {
 // Сохрание базы данных
 setInterval(() => {
    utils.save(users, 'users')
-   var url = "http://investvkbot5.herokuapp.com"
-   request(url, (error, response, body) => {
-console.log(response)
 }, 100000)
 
 // Инвестирование каждые 10 минут
@@ -82,7 +80,7 @@ vk.updates.on("message_new", async (message) => {
            invest: 0,
            refs: [],
            ban: false,
-           limit: 500000000000000000
+           limit: 15
        })
 
        message.send(config.start_msg, {keyboard: menu})
