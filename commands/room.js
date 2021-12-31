@@ -7,6 +7,7 @@ exports.execute = async (message, menu, utils, vk) => {
   if(!message.args[1]) {
       message.send(`Ваш QIWI номер: ${!message.user.number ? `неизвестно` : message.user.number}, чтобы изменить введите <<номер [новый номер]>>`)
   } else {
+    if(!Number(message.args[1])) return;
       message.user.number = message.args[1];
 
       message.send(`Установлен новый QIWI номер: ${message.args[1]}`)

@@ -13,14 +13,14 @@ exports.execute = async (message) => {
           "action": {
             "type": "text",
             "payload": "{\"button\": \"топ_инвесторов\"}",
-            "label": `Топ инвесторов`
+            "label": `🏅 Топ по инвесторам`
           },
           "color": "secondary"
         }, {
           "action": {
             "type": "text",
             "payload": "{\"button\": \"топ_рефералов\"}",
-            "label": `Топ рефералов`
+            "label": `🏅 Топ по рефералам`
           },
           "color": "secondary"
         }],
@@ -28,7 +28,7 @@ exports.execute = async (message) => {
           "action": {
             "type": "text",
             "payload": "{\"button\": \"назад\"}",
-            "label": `Назад`
+            "label": `🔙 Меню`
           },
           "color": "negative"
         }]

@@ -4,33 +4,680 @@
 		"uid": 0,
 		"name": "Тамерлан",
 		"balance": [
-			0,
-			0,
-			0
-		],
-		"status": "Премиум",
-		"stage": "",
-		"bonus": 86345,
-		"invest": 3,
-		"refs": [],
-		"ban": false,
-		"limit": 500000000000000000
-	},
-	{
-		"id": 604305357,
-		"uid": 1,
-		"name": "Бахмуд",
-		"balance": [
-			0,
+			420.78700000000146,
 			0,
 			0
 		],
 		"status": "Премиум",
 		"stage": "",
 		"bonus": 0,
+		"invest": 74882,
+		"refs": [],
+		"ban": false,
+		"limit": 100,
+		"number": "+77055225008"
+	},
+	{
+		"id": 593068341,
+		"uid": 1,
+		"name": "Данииил",
+		"balance": [
+			805540.9799999981,
+			385,
+			0
+		],
+		"status": "Премиум",
+		"stage": "",
+		"bonus": 41653,
+		"invest": 22222232,
+		"refs": [],
+		"ban": false,
+		"limit": 1000190,
+		"number": "+79531919079"
+	},
+	{
+		"id": 368532452,
+		"uid": 2,
+		"name": "Женя",
+		"balance": [
+			1.2409999999999854,
+			0,
+			0
+		],
+		"status": "Премиум",
+		"stage": "invest",
+		"bonus": 0,
+		"invest": 568.71,
+		"refs": [],
+		"ban": false,
+		"limit": 15,
+		"rubdate": 24113977372,
+		"number": "+79385096730"
+	},
+	{
+		"id": 590994334,
+		"uid": 3,
+		"name": "Арсений",
+		"balance": [
+			0,
+			35,
+			0
+		],
+		"status": "Премиум",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 598990965,
+		"uid": 4,
+		"name": "Юсуп'",
+		"balance": [
+			0.4610000000000005,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 14968,
+		"invest": 7.01,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 569056521,
+		"uid": 5,
+		"name": "Дмитрий",
+		"balance": [
+			0.11100000000000008,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 20174,
+		"invest": 7,
+		"refs": [],
+		"ban": false,
+		"limit": 15,
+		"number": "+79632129525"
+	},
+	{
+		"id": 492755150,
+		"uid": 6,
+		"name": "Артём",
+		"balance": [
+			0.6480000000000004,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "invest",
+		"bonus": 0,
+		"invest": 13,
+		"refs": [
+			{
+				"id": 660681413
+			},
+			{
+				"id": 375826434
+			},
+			{
+				"id": 406140312
+			},
+			{
+				"id": 591283706
+			}
+		],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 660681413,
+		"uid": 7,
+		"name": "Кто",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
 		"invest": 1,
 		"refs": [],
 		"ban": false,
-		"limit": 500000000000000000
+		"limit": 15
+	},
+	{
+		"id": 375826434,
+		"uid": 8,
+		"name": "Денис",
+		"balance": [
+			0,
+			1,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 582522097,
+		"uid": 9,
+		"name": "Джафар",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 583024900,
+		"uid": 10,
+		"name": "Всеволод",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 242106737,
+		"uid": 11,
+		"name": "Денис",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 406140312,
+		"uid": 12,
+		"name": "Георгий",
+		"balance": [
+			0,
+			1,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 578053365,
+		"uid": 13,
+		"name": "Сергей",
+		"balance": [
+			0.4540000000000003,
+			20,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 26031,
+		"invest": 7,
+		"refs": [
+			{
+				"id": 563478216
+			},
+			{
+				"id": 403869299
+			},
+			{
+				"id": 569723504
+			},
+			{
+				"id": 536467412
+			},
+			{
+				"id": 672422348
+			},
+			{
+				"id": 604550798
+			},
+			{
+				"id": 691317639
+			}
+		],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 563478216,
+		"uid": 14,
+		"name": "Стёпа'блятылох",
+		"balance": [
+			0.09300000000000007,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 1,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 403869299,
+		"uid": 15,
+		"name": "Сергей",
+		"balance": [
+			0.09300000000000007,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 1,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 616549457,
+		"uid": 16,
+		"name": "Назар",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 569723504,
+		"uid": 17,
+		"name": "Геля",
+		"balance": [
+			0,
+			1,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 536467412,
+		"uid": 18,
+		"name": "Армен",
+		"balance": [
+			0,
+			1,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 672422348,
+		"uid": 19,
+		"name": "Неизвестный",
+		"balance": [
+			0.18000000000000013,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 27934,
+		"invest": 3,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 538752617,
+		"uid": 20,
+		"name": "Тёма",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 661521210,
+		"uid": 21,
+		"name": "Валерий",
+		"balance": [
+			0.08700000000000006,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 29560,
+		"invest": 2,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 438906992,
+		"uid": 22,
+		"name": "Никита",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 695647809,
+		"uid": 23,
+		"name": "Daniiilok",
+		"balance": [
+			26226.56999999999,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 444444,
+		"refs": [],
+		"ban": false,
+		"limit": 7,
+		"number": "+79531919079"
+	},
+	{
+		"id": 591283706,
+		"uid": 24,
+		"name": "Саша",
+		"balance": [
+			0,
+			3,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 604550798,
+		"uid": 25,
+		"name": "Александр",
+		"balance": [
+			0.1520000000000001,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 3,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 691317639,
+		"uid": 26,
+		"name": "Вадим",
+		"balance": [
+			0,
+			3,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 670774802,
+		"uid": 27,
+		"name": "Петр",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 552751674,
+		"uid": 28,
+		"name": "Сергей",
+		"balance": [
+			0.024,
+			0,
+			0
+		],
+		"status": "Вип",
+		"stage": "",
+		"bonus": 83262,
+		"invest": 20,
+		"refs": [
+			{
+				"id": 625379905
+			},
+			{
+				"id": 644877569
+			},
+			{
+				"id": 470008139
+			}
+		],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 617018901,
+		"uid": 29,
+		"name": "Александр",
+		"balance": [
+			0,
+			5,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 456889301,
+		"uid": 30,
+		"name": "Петр",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 625379905,
+		"uid": 31,
+		"name": "Хасан",
+		"balance": [
+			0.001,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 1,
+		"refs": [],
+		"ban": false,
+		"limit": 15,
+		"number": "+79132413167"
+	},
+	{
+		"id": 572439575,
+		"uid": 32,
+		"name": "Рома'ля",
+		"balance": [
+			0.001,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 86163,
+		"invest": 2,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 416623903,
+		"uid": 33,
+		"name": "Саша",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "invest",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 644877569,
+		"uid": 34,
+		"name": "Александр",
+		"balance": [
+			0,
+			1,
+			0
+		],
+		"status": "Игрок",
+		"stage": "invest",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 470008139,
+		"uid": 35,
+		"name": "Роман",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 86361,
+		"invest": 3,
+		"refs": [],
+		"ban": false,
+		"limit": 15
+	},
+	{
+		"id": 503892246,
+		"uid": 36,
+		"name": "Алиасхаб",
+		"balance": [
+			0,
+			0,
+			0
+		],
+		"status": "Игрок",
+		"stage": "",
+		"bonus": 0,
+		"invest": 0,
+		"refs": [],
+		"ban": false,
+		"limit": 15
 	}
 ]

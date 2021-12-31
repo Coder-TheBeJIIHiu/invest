@@ -9,24 +9,19 @@ const Qiwi = require('node-qiwi-api').Qiwi;
 const Wallet = new Qiwi(config.qiwi_token);
 
 exports.execute = async (message, menu, utils, vk) => {
+  console.log(config.qiwi_token)
     let send = sends.find(x => x.id == message.args[1]);
 
     if(send.paid_for) return message.send(`Данный заказ уже оплачен.`);
 
-    console.log(send)
     send.paid_for = true;
-
-    Wallet.toWallet({ amount: send.count, comment: "🤑 Вывод от проекта «MIRIC»", account: users.find(x => x.id == send.userId).number }, async (err, data) => {
-        if(err) {
-            console.log(err);
-        }
-
-        console.log(data);
-
-       // vk.api.messages.edit({ peer_id: send.peerId, message_id: send.messageEdit, message: `✅ Заказ №${send.id} оплачен.` });
-
-        message.send(`Вы оплатили заказ №${send.id}`);
-        message.send(`🔔 Ваш вывод успешно одобрен.`, { user_id: send.userId, forward_messages: send.messageId })
+    num = users.find(x => x.id == send.userId).number
+  message.reply(num)
+    Wallet.toWallet({ amount: send.count, comment: "🤑 Вывод", account: num }, async (err, data) => {
+        message.reply(data);
+console.log(send.id+" Оплачен")
+   message.reply(`Вы оплатили заказ №${send.id}`);
+      message.send(`🔔 Ваш вывод успешно одобрен.`, { user_id: send.userId, forward_messages: send.messageId })
 
         await utils.save(sends, "sends")
     });
