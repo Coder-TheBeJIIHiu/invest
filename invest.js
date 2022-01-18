@@ -57,8 +57,6 @@ setInterval(() => {
 // Событие нового сообщения
 vk.updates.on("message_new", async (message) => {
    if (!message.text || message.chatId == 0) return
-   app.get('/', function (req, res) {
-     res.send(message) 
     });
    if (message.messagePayload && message.text != "Начать") message.text = message.messagePayload.button;
 
