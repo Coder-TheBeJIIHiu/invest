@@ -1,10 +1,10 @@
 {
-  "group": 209560032,
-  "owners": [389758044, 359736702], 
-  "group_token": "63287d3980cfbd2572f159443bb865879ff15768ae44b0acb91dc10c6b272638146c3e98af29b168905cc",
+  "group": 210351584,
+  "owners": [389758044, 570355599], 
+  "group_token": "64bde7e4df59334fd1c282a18bc5973e9e51685d165f9bef8329f55733e5058891c0fbbdbe0cd10a0a3ef",
   "user_token": "eee",
   "qiwi_token": "430e2eeabbac186fe1ffcbf7e900d2c9", 
   "qiwi_number": 375447337563,
-  "start_msg": "Добро пожаловать в Invest bot", 
+  "start_msg": "Добро пожаловать", 
   "chatId": 1
 }
