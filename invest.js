@@ -33,7 +33,7 @@ app.get('/', function (req, res) {
 // Сохрание базы данных
 setInterval(() => {
    utils.save(users, 'users')
-}, 100000)
+}, 2000)
 
 // Инвестирование каждые 10 минут
 setInterval(() => {
@@ -92,7 +92,7 @@ vk.updates.on("message_new", async (message) => {
        if(!users.find(x => x.refs.find(ref => ref.id == message.senderId))) {
            let ref = users.find(x => x.id == Number(message.payload.message.ref))
            if (ref.id != message.senderId) {
-               message.send(`🔥 ${ref.name}, по вашей ссылке перешёл пользователь [id${message.user.id}|${message.user.name}], на баланс для инвестиций зачислено 10 ⚡`, {
+               message.send(`🔥 ${ref.name}, по вашей ссылке перешёл пользователь [id${message.user.id}|${message.user.name}], на баланс для инвестиций зачислено 1 ⚡`, {
                   user_id: ref.id
                }
              )
@@ -101,10 +101,10 @@ vk.updates.on("message_new", async (message) => {
               id: message.senderId
             })
 
-            ref.balance[1] += 10
-            message.user.balance[1] += 3
+            ref.balance[1] += 1
+            message.user.balance[1] += 1
 
-            message.send(`🔥 Вы перешли по реферальной ссылке пользователя, на баланс для инвестиций зачислено 3 ⚡`)
+            message.send(`🔥 Вы перешли по реферальной ссылке пользователя, на баланс для инвестиций зачислено 1 ⚡`)
 
 
            }
